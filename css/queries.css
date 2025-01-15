@@ -1,0 +1,17 @@
+@media (max-width: 580px) {
+  #root {
+    /* Fonts or Typography */
+    font-size: 12px;
+    max-width: 280px;
+    grid-template-columns: 1fr;
+  }
+
+  .note {
+    padding: 1.45em;
+  }
+
+  h3.sub-headline {
+    font-weight: 500;
+    font-size: 1.25em;
+  }
+}

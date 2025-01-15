@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts or Typography */
+  font-size: 16px;
+  font-family: "Karla";
+
+  /* Colors */
+  /* ------- Primary */
+  --cyan: rgb(42, 178, 175);
+  --lgt-cyan: rgb(74, 190, 189);
+  --brt-yellow: hsl(71, 73%, 54%);
+
+  /* ------- Neutral */
+  --lgt-gray: hsl(204, 43%, 93%);
+  --gry-blue: hsl(218, 22%, 67%);
+  --white: hsl(255, 100%, 100%);
+
+  /* Variables */
+  --reg-wgt: 400;
+  --bol-wgt: 700;
+  --shadow: 0 0 16px rgba(0, 0, 0, 15%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--lgt-gray);
+}
+
+#root {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 640px;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.headline,
+.sub-headline {
+  font-weight: var(--bol-wgt);
+}
+
+.note {
+  padding: 2em;
+}
+
+/* Welcome Note Section */
+.welcome--note {
+  grid-column: 1/-1;
+  background: var(--white);
+}
+
+h2.headline {
+  color: var(--cyan);
+}
+
+p.important-line {
+  margin-block: 1em;
+  font-weight: var(--bol-wgt);
+  color: var(--brt-yellow);
+  font-size: 1.15em;
+}
+
+p.description {
+  line-height: 1.66;
+  color: var(--gry-blue);
+}
+
+/* Plan Note Section */
+.plan--note {
+  background: var(--cyan);
+}
+
+/* Highlight Note Section */
+.highlight--note {
+  background: var(--lgt-cyan);
+}
+
+.highlight-list {
+  font-size: 0.88rem;
+}
+
+.highlight {
+  font-weight: 200;
+  line-height: 1.55;
+}
+
+/* Button Styling */
+.sign-up {
+  all: inherit;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: var(--bol-wgt);
+  border-radius: 6px;
+  background-color: var(--brt-yellow);
+  padding: 0.88em 1em;
+  box-shadow: var(--shadow);
+}
+
+/* -------------- */
+.plan--note,
+.highlight--note {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h3.sub-headline {
+  margin-bottom: 1em;
+}
+
+.price-component {
+  font-weight: var(--reg-wgt);
+  color: var(--lgt-gray);
+  font-weight: var(--reg-wgt);
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.price-details {
+  margin: 0 0 2em;
+  font-weight: 300;
+}
+
+.price {
+  color: var(--white);
+  font-size: 2.25rem;
+  font-weight: var(--bol-wgt);
+  margin-right: 12px;
+}
