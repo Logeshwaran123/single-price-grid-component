@@ -10,10 +10,34 @@ In this project, I have gained some confidence in building some CSS related conc
 1. Have confidence in breaking the design and most importantly applying the responsiveness more intact way.😎
 1. This coding practice is very crucial for my web development career understanding the design is more important in building this kind of web components.
 
+## CODE BLOCK I'm feeling nice
+
+```
+@media (max-width: 580px) {
+  #root {
+    /* Fonts or Typography */
+    font-size: 12px;
+    max-width: 280px;
+    grid-template-columns: 1fr;
+  }
+
+  .note {
+    padding: 1.45em;
+  }
+
+  h3.sub-headline {
+    font-weight: 500;
+    font-size: 1.25em;
+  }
+}
+```
+
 ## ScreenShots
 
 > Note about the ScreenShot
-> ![Hovering of Image](./screenshot.png)
+
+This is one of my screenshot for the Work I did.😁
+![Hovering of Image](./screenshot.png)
 
 ## Things I learned:
 
@@ -29,7 +53,7 @@ In this project, I have gained some confidence in building some CSS related conc
 
 ### IMPORTANT LINKS
 
-| Source    | Link                                                                      |
-| --------- | ------------------------------------------------------------------------- |
-| Live Site | [URL for GitHub Page](https://logeshwaran123.github.io/nft-preview-card/) |
-| Code URL  | [Repo in GitHub](https://github.com/Logeshwaran123/nft-preview-card.git)  |
+| Source    | Link                                                                                 |
+| --------- | ------------------------------------------------------------------------------------ |
+| Live Site | [URL for GitHub Page](https://logeshwaran123.github.io/single-price-grid-component/) |
+| Code URL  | [Repo in GitHub](https://github.com/Logeshwaran123/single-price-grid-component.git)  |
